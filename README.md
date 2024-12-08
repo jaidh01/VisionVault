@@ -8,39 +8,94 @@ VisionVault is an innovative project that transforms the way we capture and docu
 - **Image Description**: Generate meaningful descriptions via the Gemmini Vision API.  
 - **Hands-Free Operation**: Capture moments without using a phone or camera.  
 
+## Demo  
+Check out the demo video to see VisionVault in action:  
+[![Demo Video](https://via.placeholder.com/800x450?text=Watch+Demo)](https://drive.google.com/file/d/1MdOBAaBN1NZO3tWtO9ubJmuAirmaCzpb/view?usp=sharing)
+*Click the image above or [this link](https://drive.google.com/file/d/1MdOBAaBN1NZO3tWtO9ubJmuAirmaCzpb/view?usp=sharing) to watch the demo video.*  
+
 ## Applications  
-Personal memory archival, remote surveillance, and assistive technology for visually impaired individuals.  
+- Personal memory archival  
+- Remote surveillance  
+- Assistive technology for visually impaired individuals  
 
 ## How It Works  
-Mount the ESP32-CAM on goggles or a suitable frame and connect it to a network. The Python script streams the live feed, allowing users to press "c" to capture an image. This image is sent to the Gemmini Vision API, which returns a detailed description.  
+1. **Hardware Setup**: Mount the ESP32-CAM on goggles or a suitable frame and connect it to a network.  
+2. **Live Feed Streaming**: A Python script streams the live feed from the ESP32-CAM.  
+3. **Image Capture**: Press "c" to capture an image from the live feed.  
+4. **Description Generation**: The captured image is sent to the Gemmini Vision API, which returns a detailed description.  
 
 ## Prerequisites  
-- Arduino IDE
-- ESP32-CAM module  
-- Python 3.7+  
-- Libraries: `opencv-python`, `requests`, `flask`  
-- Access to the Gemmini Vision API  
+- **Hardware**:  
+  - ESP32-CAM module  
+  - Goggles or a mountable frame  
+
+- **Software**:  
+  - Arduino IDE (for ESP32-CAM setup)  
+  - Python 3.7+  
+  - Required libraries:  
+    - `opencv-python`  
+    - `requests`  
+    - `flask`  
+
+- **API**: Access to the Gemmini Vision API  
 
 ## Installation  
-Clone the repository: 
-```bash
-git clone https://github.com/your-username/VisionVault.git
-```
-and navigate to the folder.
-Install dependencies with 
-```bash 
-pip install -r requirements.txt
-```
-Add your Gemmini API key in the `.env` file: `GENAI_API_KEY = "your-gemmini-api-key"`.  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/VisionVault.git
+   cd VisionVault
+   ```  
+2. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```  
+3. Add your Gemmini Vision API key to the `.env` file:  
+   ```env
+   GENAI_API_KEY="your-gemmini-api-key"
+   ```  
 
 ## Usage  
-Run the script with `python file_name.py`. View the live feed and press "c" to capture an image and get its description.  
+1. Run the Python script:  
+   ```bash
+   python file_name.py
+   ```  
+2. View the live feed on the displayed window.  
+3. Press "c" to capture an image and generate its description.  
 
 ## Future Enhancements  
-Planned features include speech-to-text for hands-free control, support for additional APIs, and a mobile app interface.  
+- **Voice Commands**: Integrate speech-to-text functionality for hands-free control.  
+- **Mobile App**: Develop a companion app for easier accessibility.  
+- **API Expansion**: Support additional APIs for varied use cases.  
 
 ## Contributing  
-Contributions are welcome! Fork the repository and submit a pull request.  
+Contributions are welcome! Here's how you can contribute:  
+1. Fork the repository  
+2. Create a feature branch:  
+   ```bash
+   git checkout -b feature-name
+   ```  
+3. Commit your changes:  
+   ```bash
+   git commit -m "Description of feature"
+   ```  
+4. Push to the branch:  
+   ```bash
+   git push origin feature-name
+   ```  
+5. Submit a pull request  
+
+## License  
+This project is licensed under the MIT License.  
 
 ## Acknowledgments  
-Special thanks to the Gemmini Vision API, OpenCV, and the Python community for their support.  
+- The **Gemmini Vision API** for image description generation  
+- The **OpenCV** community for their robust computer vision tools  
+- The **Python** community for supporting open-source projects  
+
+
+### Steps to Replace the Placeholder
+1. Generate a shareable link for your video on Google Drive.  
+2. Extract the file ID from the shareable link (it looks like `1abcdefgHIJKLMNO`).  
+3. Replace `YourFileID` in the `README.md` with the extracted file ID.  
+
+Let me know if you need further assistance!
