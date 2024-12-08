@@ -83,20 +83,9 @@ Contributions are welcome! Here's how you can contribute:
    ```bash
    git push origin feature-name
    ```  
-5. Submit a pull request  
-
-## License  
-This project is licensed under the MIT License.  
+5. Submit a pull request    
 
 ## Acknowledgments  
 - The **Gemmini Vision API** for image description generation  
 - The **OpenCV** community for their robust computer vision tools  
 - The **Python** community for supporting open-source projects  
-
-
-### Steps to Replace the Placeholder
-1. Generate a shareable link for your video on Google Drive.  
-2. Extract the file ID from the shareable link (it looks like `1abcdefgHIJKLMNO`).  
-3. Replace `YourFileID` in the `README.md` with the extracted file ID.  
-
-Let me know if you need further assistance!
