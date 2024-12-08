@@ -8,9 +8,10 @@ VisionVault is an innovative project that transforms the way we capture and docu
 - **Image Description**: Generate meaningful descriptions via the Gemmini Vision API.  
 - **Hands-Free Operation**: Capture moments without using a phone or camera.  
 
-## Demo  
+## Demo Video
 Check out the demo video to see VisionVault in action:  
 [![Demo Video](https://github.com/jaidh01/VisionVault/blob/main/assets/vision%20vault.png)](https://drive.google.com/file/d/1MdOBAaBN1NZO3tWtO9ubJmuAirmaCzpb/view?usp=sharing)
+
 *Click the image above or [this link](https://drive.google.com/file/d/1MdOBAaBN1NZO3tWtO9ubJmuAirmaCzpb/view?usp=sharing) to watch the demo video.*  
 
 ## Applications  
