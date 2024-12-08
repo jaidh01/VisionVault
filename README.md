@@ -10,7 +10,7 @@ VisionVault is an innovative project that transforms the way we capture and docu
 
 ## Demo  
 Check out the demo video to see VisionVault in action:  
-[![Demo Video](https://via.placeholder.com/800x450?text=Watch+Demo)](https://drive.google.com/file/d/1MdOBAaBN1NZO3tWtO9ubJmuAirmaCzpb/view?usp=sharing)
+[![Demo Video](https://github.com/jaidh01/VisionVault/blob/main/assets/vision%20vault.png)](https://drive.google.com/file/d/1MdOBAaBN1NZO3tWtO9ubJmuAirmaCzpb/view?usp=sharing)
 *Click the image above or [this link](https://drive.google.com/file/d/1MdOBAaBN1NZO3tWtO9ubJmuAirmaCzpb/view?usp=sharing) to watch the demo video.*  
 
 ## Applications  
